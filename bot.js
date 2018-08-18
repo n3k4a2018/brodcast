@@ -2,7 +2,7 @@ const Discord = require("discord.js");
   const kboosh = new Discord.Client();
     const kbooshtoken = "NDgwMzYyNzg3NjU5MzE3MjQ4.Dlmtzw.ej6VRzyZIQWs7_3eTVBR781dPwQ"
       kboosh.on('ready', () => {
-        kboosh.user.setGame(`KBOOSH TEST Broadcast`,'https://www.twitch.tv/TEST-Broadcast');
+        kboosh.user.setGame(`n3k4a is here`,'https://www.twitch.tv/TEST-Broadcast');
           console.log('Im Ready!');
   
         });
