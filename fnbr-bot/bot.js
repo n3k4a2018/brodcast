@@ -2,7 +2,7 @@ const dotenv = require('dotenv').config();
 const Discord = require("discord.js");
 const fs = require("fs");
 const bot_token = process.env.BOT_TOKEN || null;
-const prefix = process.env.PREFIX || '-';
+const prefix = process.env.PREFIX || '-f';
 var port = process.env.PORT || 3000;
 
 const bot = new Discord.Client({disableEveryone: false, autoReconnect:true});
